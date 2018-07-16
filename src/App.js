@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//Code is from https://github.com/lmmfranco/nintendo-switch-eshop
+
 const request = require("request");
 const xml2js = require("xml2js");
 const unique = require("array-unique-x");
@@ -479,6 +481,7 @@ var createReactClass = require('create-react-class');
 //   }
 
 var GetGamesEurope2 = createReactClass ({
+    const = this.state.GetGamesEurope || [],
     render() {
         return (
             <ul>
