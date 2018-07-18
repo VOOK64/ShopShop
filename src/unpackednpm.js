@@ -1,4 +1,6 @@
 
+//Code is from https://github.com/lmmfranco/nintendo-switch-eshop
+
 const request = require("request");
 const xml2js = require("xml2js");
 const unique = require("array-unique-x");
@@ -448,7 +450,7 @@ export function hasProp(obj, prop) {
     return obj && prop in obj;
 }
 
-modules.export = {
+module.exports = {
     Region: Region,
     ParseGameCode: ParseGameCode,
     ParseNSUID: ParseNSUID,
