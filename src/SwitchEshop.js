@@ -11,7 +11,6 @@ const GET_GAMES_US_URL = CORS_PROXY + "http://www.nintendo.com/json/content/get/
 const GET_GAMES_EU_URL = CORS_PROXY + "http://search.nintendo-europe.com/{locale}/select";
 const GET_GAMES_JP_CURRENT = CORS_PROXY + "https://www.nintendo.co.jp/data/software/xml-system/switch-onsale.xml";
 const GET_GAMES_JP_COMING = CORS_PROXY + "https://www.nintendo.co.jp/data/software/xml-system/switch-coming.xml";
-const GET_GAMES_JP_ALT = CORS_PROXY + "https://www.nintendo.co.jp/api/search/title?category=products&pf=switch&q=*&count=25";
 const GET_PRICE_URL = CORS_PROXY + "https://api.ec.nintendo.com/v1/price?lang=en";
 const DEFAULT_LOCALE = "en";
 
