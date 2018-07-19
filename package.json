@@ -1,12 +1,18 @@
 {
-  "name": "eshopscrap",
+  "name": "switch-eshop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "create-react-class": "^15.6.3",
+    "array-unique-x": "^1.0.5",
+    "country-data": "^0.0.31",
     "nintendo-switch-eshop": "^1.1.1",
+    "q": "^1.5.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "request": "^2.87.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
     "react-scripts": "1.1.4"
   },
   "scripts": {
