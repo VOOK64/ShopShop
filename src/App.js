@@ -42,7 +42,7 @@ class App extends Component {
         {jsonData}
       ]
 
-      React.createElement(<JsonTable rows = {items} />), document.getElementsByClassName('table')
+      React.render(React.createElement(<JsonTable rows = {items} />), document.getElementsByClassName('table'))
 
   };
 
